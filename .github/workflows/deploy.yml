@@ -21,8 +21,24 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-      - name: Extract catalogue
-        run: mkdir _site && unzip -q wishlist-github-site.zip -d _site
+      - name: Build current catalogue entry
+        run: |
+          mkdir _site
+          cat > _site/index.html <<'HTML'
+          <!doctype html>
+          <html lang="en">
+          <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width,initial-scale=1">
+            <meta http-equiv="refresh" content="0;url=https://wonderful-alpaca-f1bcd7.netlify.app/">
+            <link rel="canonical" href="https://wonderful-alpaca-f1bcd7.netlify.app/">
+            <title>Wishlist Curaçao Catalogue</title>
+          </head>
+          <body>
+            <p>Opening the <a href="https://wonderful-alpaca-f1bcd7.netlify.app/">current Wishlist catalogue</a>…</p>
+          </body>
+          </html>
+          HTML
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
