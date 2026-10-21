@@ -1,0 +1,2 @@
+import fs from 'node:fs';import path from 'node:path';import {unzipSync} from 'fflate';
+for(const name of fs.readdirSync('assets').filter(n=>n.endsWith('.zip'))){for(const [name,bytes]of Object.entries(unzipSync(fs.readFileSync(path.join('assets',name))))){if(name.startsWith('/')||name.split('/').includes('..'))throw Error('Invalid asset archive');const target=path.join('public',name);fs.mkdirSync(path.dirname(target),{recursive:true});fs.writeFileSync(target,bytes);}}

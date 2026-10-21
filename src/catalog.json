@@ -1,0 +1,2174 @@
+[
+  {
+    "id": "initial-1",
+    "name": "Perfume Oil",
+    "category": "Perfumes & Body Mists",
+    "brand": "Sand + Fog",
+    "description": "",
+    "imageUrl": null,
+    "visible": true,
+    "sortOrder": 0,
+    "variants": [
+      {
+        "id": "initial-1-1",
+        "productId": "initial-1",
+        "name": "Lemon Sugar",
+        "price": 8000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 0
+      },
+      {
+        "id": "initial-1-2",
+        "productId": "initial-1",
+        "name": "Violet Sandalwood",
+        "price": 8000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 1
+      },
+      {
+        "id": "initial-1-3",
+        "productId": "initial-1",
+        "name": "Pistachio Dream",
+        "price": 8000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 2
+      },
+      {
+        "id": "initial-1-4",
+        "productId": "initial-1",
+        "name": "Coconut Creme",
+        "price": 8000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 3
+      },
+      {
+        "id": "initial-1-5",
+        "productId": "initial-1",
+        "name": "Pear Blossom",
+        "price": 8000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 4
+      },
+      {
+        "id": "initial-1-6",
+        "productId": "initial-1",
+        "name": "Strawberry Shake",
+        "price": 8000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 5
+      },
+      {
+        "id": "initial-1-7",
+        "productId": "initial-1",
+        "name": "Marshmallow Skies",
+        "price": 8000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 6
+      },
+      {
+        "id": "initial-1-8",
+        "productId": "initial-1",
+        "name": "Amber & Pear",
+        "price": 8000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 7
+      },
+      {
+        "id": "initial-1-9",
+        "productId": "initial-1",
+        "name": "Vanilla Sugar",
+        "price": 8000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 8
+      },
+      {
+        "id": "initial-1-10",
+        "productId": "initial-1",
+        "name": "Vanilla Musk",
+        "price": 8000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 9
+      },
+      {
+        "id": "initial-1-11",
+        "productId": "initial-1",
+        "name": "Vanilla & Amber",
+        "price": 8000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 10
+      },
+      {
+        "id": "initial-1-12",
+        "productId": "initial-1",
+        "name": "Velvet Blossom",
+        "price": 8000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 11
+      },
+      {
+        "id": "initial-1-13",
+        "productId": "initial-1",
+        "name": "Vanilla Marshmallow",
+        "price": 8000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 12
+      },
+      {
+        "id": "initial-1-14",
+        "productId": "initial-1",
+        "name": "Vanilla Latte",
+        "price": 8000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 13
+      },
+      {
+        "id": "initial-1-15",
+        "productId": "initial-1",
+        "name": "Innocence",
+        "price": 8000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 14
+      },
+      {
+        "id": "initial-1-16",
+        "productId": "initial-1",
+        "name": "Night Skies",
+        "price": 8000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 15
+      },
+      {
+        "id": "initial-1-17",
+        "productId": "initial-1",
+        "name": "Sugar & Amber",
+        "price": 8000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 16
+      },
+      {
+        "id": "initial-1-18",
+        "productId": "initial-1",
+        "name": "Enchanted",
+        "price": 8000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 17
+      },
+      {
+        "id": "initial-1-19",
+        "productId": "initial-1",
+        "name": "Vanilla Cake",
+        "price": 8000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 18
+      },
+      {
+        "id": "initial-1-20",
+        "productId": "initial-1",
+        "name": "Coconut Passion",
+        "price": 8000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 19
+      },
+      {
+        "id": "initial-1-21",
+        "productId": "initial-1",
+        "name": "Peach Bellini",
+        "price": 8000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 20
+      },
+      {
+        "id": "initial-1-22",
+        "productId": "initial-1",
+        "name": "Berries & Cream",
+        "price": 8000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 21
+      },
+      {
+        "id": "initial-1-23",
+        "productId": "initial-1",
+        "name": "Love Potion",
+        "price": 8000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 22
+      },
+      {
+        "id": "initial-1-24",
+        "productId": "initial-1",
+        "name": "Cherry Kiss",
+        "price": 8000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 23
+      },
+      {
+        "id": "initial-1-25",
+        "productId": "initial-1",
+        "name": "Vanilla Reserve",
+        "price": 8000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 24
+      },
+      {
+        "id": "initial-1-26",
+        "productId": "initial-1",
+        "name": "Strawberry Spritz",
+        "price": 8000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 25
+      }
+    ]
+  },
+  {
+    "id": "initial-2",
+    "name": "Perfume Sets",
+    "category": "Perfumes & Body Mists",
+    "brand": "Sand + Fog",
+    "description": "",
+    "imageUrl": null,
+    "visible": true,
+    "sortOrder": 1,
+    "variants": [
+      {
+        "id": "initial-2-1",
+        "productId": "initial-2",
+        "name": "The Year Anniversary Perfume Dropper Set",
+        "price": 15500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 0
+      },
+      {
+        "id": "initial-2-2",
+        "productId": "initial-2",
+        "name": "Sweet Dreams Collection",
+        "price": 7500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 1
+      },
+      {
+        "id": "initial-2-3",
+        "productId": "initial-2",
+        "name": "Soft & Sweet Set",
+        "price": 7500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 2
+      },
+      {
+        "id": "initial-2-4",
+        "productId": "initial-2",
+        "name": "A Bit of Everything Set",
+        "price": 7500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 3
+      },
+      {
+        "id": "initial-2-5",
+        "productId": "initial-2",
+        "name": "Sweet Skies Collection",
+        "price": 7500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 4
+      },
+      {
+        "id": "initial-2-6",
+        "productId": "initial-2",
+        "name": "Pistachio Dream Set",
+        "price": 6500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 5
+      }
+    ]
+  },
+  {
+    "id": "initial-3",
+    "name": "Perfume 50 ml",
+    "category": "Perfumes & Body Mists",
+    "brand": "Kayali",
+    "description": "",
+    "imageUrl": null,
+    "visible": true,
+    "sortOrder": 2,
+    "variants": [
+      {
+        "id": "initial-3-1",
+        "productId": "initial-3",
+        "name": "Yum Pistachio Gelato",
+        "price": 24000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 0
+      },
+      {
+        "id": "initial-3-2",
+        "productId": "initial-3",
+        "name": "Vanilla Candy Rock Sugar",
+        "price": 24000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 1
+      },
+      {
+        "id": "initial-3-3",
+        "productId": "initial-3",
+        "name": "Vanilla 28",
+        "price": 24000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 2
+      },
+      {
+        "id": "initial-3-4",
+        "productId": "initial-3",
+        "name": "Wedding Silk Santal",
+        "price": 24000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 3
+      },
+      {
+        "id": "initial-3-5",
+        "productId": "initial-3",
+        "name": "Yum Boujee Marshmallow",
+        "price": 24000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 4
+      }
+    ]
+  },
+  {
+    "id": "initial-4",
+    "name": "Perfume 10 ml",
+    "category": "Perfumes & Body Mists",
+    "brand": "Kayali",
+    "description": "",
+    "imageUrl": null,
+    "visible": true,
+    "sortOrder": 3,
+    "variants": [
+      {
+        "id": "initial-4-1",
+        "productId": "initial-4",
+        "name": "Vanilla 28",
+        "price": 8500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 0
+      },
+      {
+        "id": "initial-4-2",
+        "productId": "initial-4",
+        "name": "Vanilla Candy Rock Sugar",
+        "price": 8500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 1
+      },
+      {
+        "id": "initial-4-3",
+        "productId": "initial-4",
+        "name": "Yum Pistachio Gelato",
+        "price": 8500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 2
+      },
+      {
+        "id": "initial-4-4",
+        "productId": "initial-4",
+        "name": "Yum Boujee Marshmallow",
+        "price": 8500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 3
+      },
+      {
+        "id": "initial-4-5",
+        "productId": "initial-4",
+        "name": "Wedding Silk Santal",
+        "price": 8500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 4
+      }
+    ]
+  },
+  {
+    "id": "initial-5",
+    "name": "Body Mist 76 · 240 ml",
+    "category": "Perfumes & Body Mists",
+    "brand": "Sol de Janeiro",
+    "description": "",
+    "imageUrl": null,
+    "visible": true,
+    "sortOrder": 4,
+    "variants": [
+      {
+        "id": "initial-5-1",
+        "productId": "initial-5",
+        "name": "No. 76",
+        "price": 7500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "initial-6",
+    "name": "Lotion",
+    "category": "Lotions & Body Wash",
+    "brand": "Athena",
+    "description": "",
+    "imageUrl": null,
+    "visible": true,
+    "sortOrder": 5,
+    "variants": [
+      {
+        "id": "initial-6-1",
+        "productId": "initial-6",
+        "name": "Amber Hours",
+        "price": 4000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 0
+      },
+      {
+        "id": "initial-6-2",
+        "productId": "initial-6",
+        "name": "Super Pink",
+        "price": 4000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 1
+      },
+      {
+        "id": "initial-6-3",
+        "productId": "initial-6",
+        "name": "First Blush",
+        "price": 4000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 2
+      },
+      {
+        "id": "initial-6-4",
+        "productId": "initial-6",
+        "name": "Petal Bloom",
+        "price": 4000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 3
+      },
+      {
+        "id": "initial-6-5",
+        "productId": "initial-6",
+        "name": "Solar Muse",
+        "price": 4000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 4
+      },
+      {
+        "id": "initial-6-6",
+        "productId": "initial-6",
+        "name": "Love Letter",
+        "price": 4000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 5
+      },
+      {
+        "id": "initial-6-7",
+        "productId": "initial-6",
+        "name": "Golden Vanilla",
+        "price": 4000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 6
+      },
+      {
+        "id": "initial-6-8",
+        "productId": "initial-6",
+        "name": "Salted Sunset",
+        "price": 4000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 7
+      }
+    ]
+  },
+  {
+    "id": "initial-7",
+    "name": "Lotion",
+    "category": "Lotions & Body Wash",
+    "brand": "eos",
+    "description": "",
+    "imageUrl": null,
+    "visible": true,
+    "sortOrder": 6,
+    "variants": [
+      {
+        "id": "initial-7-1",
+        "productId": "initial-7",
+        "name": "Crème de Pistachio",
+        "price": 4000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 0
+      },
+      {
+        "id": "initial-7-2",
+        "productId": "initial-7",
+        "name": "Coconut Waters",
+        "price": 4000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 1
+      },
+      {
+        "id": "initial-7-3",
+        "productId": "initial-7",
+        "name": "Pink Champagne",
+        "price": 4000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 2
+      },
+      {
+        "id": "initial-7-4",
+        "productId": "initial-7",
+        "name": "Jasmine Peach",
+        "price": 4000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 3
+      },
+      {
+        "id": "initial-7-5",
+        "productId": "initial-7",
+        "name": "Strawberry Dream",
+        "price": 4000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 4
+      },
+      {
+        "id": "initial-7-6",
+        "productId": "initial-7",
+        "name": "Fresh & Cozy",
+        "price": 4000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 5
+      },
+      {
+        "id": "initial-7-7",
+        "productId": "initial-7",
+        "name": "Toasted Marshmallow",
+        "price": 4000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 6
+      },
+      {
+        "id": "initial-7-8",
+        "productId": "initial-7",
+        "name": "Beach Waves",
+        "price": 4000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 7
+      },
+      {
+        "id": "initial-7-9",
+        "productId": "initial-7",
+        "name": "Vanilla Cashmere",
+        "price": 4000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 8
+      },
+      {
+        "id": "initial-7-10",
+        "productId": "initial-7",
+        "name": "Pomegranate Raspberry",
+        "price": 4000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 9
+      }
+    ]
+  },
+  {
+    "id": "initial-8",
+    "name": "Body Wash",
+    "category": "Lotions & Body Wash",
+    "brand": "eos",
+    "description": "",
+    "imageUrl": null,
+    "visible": true,
+    "sortOrder": 7,
+    "variants": [
+      {
+        "id": "initial-8-1",
+        "productId": "initial-8",
+        "name": "Vanilla Cashmere",
+        "price": 4500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 0
+      },
+      {
+        "id": "initial-8-2",
+        "productId": "initial-8",
+        "name": "Fresh & Cozy",
+        "price": 4500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 1
+      },
+      {
+        "id": "initial-8-3",
+        "productId": "initial-8",
+        "name": "Strawberry Dream",
+        "price": 4500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 2
+      },
+      {
+        "id": "initial-8-4",
+        "productId": "initial-8",
+        "name": "Pink Champagne",
+        "price": 4500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 3
+      },
+      {
+        "id": "initial-8-5",
+        "productId": "initial-8",
+        "name": "Crème de Pistachio",
+        "price": 4500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 4
+      },
+      {
+        "id": "initial-8-6",
+        "productId": "initial-8",
+        "name": "Pomegranate Raspberry",
+        "price": 4500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 5
+      },
+      {
+        "id": "initial-8-7",
+        "productId": "initial-8",
+        "name": "Jasmine Peach",
+        "price": 4500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 6
+      },
+      {
+        "id": "initial-8-8",
+        "productId": "initial-8",
+        "name": "Coconut Waters",
+        "price": 4500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 7
+      }
+    ]
+  },
+  {
+    "id": "initial-9",
+    "name": "Body Mist",
+    "category": "Perfumes & Body Mists",
+    "brand": "eos",
+    "description": "",
+    "imageUrl": null,
+    "visible": true,
+    "sortOrder": 8,
+    "variants": [
+      {
+        "id": "initial-9-1",
+        "productId": "initial-9",
+        "name": "Vanilla Cashmere",
+        "price": 4500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 0
+      },
+      {
+        "id": "initial-9-2",
+        "productId": "initial-9",
+        "name": "Fresh & Cozy",
+        "price": 4500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 1
+      },
+      {
+        "id": "initial-9-3",
+        "productId": "initial-9",
+        "name": "Strawberry Dream",
+        "price": 4500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 2
+      },
+      {
+        "id": "initial-9-4",
+        "productId": "initial-9",
+        "name": "Pink Champagne",
+        "price": 4500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 3
+      },
+      {
+        "id": "initial-9-5",
+        "productId": "initial-9",
+        "name": "Crème de Pistachio",
+        "price": 4500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 4
+      },
+      {
+        "id": "initial-9-6",
+        "productId": "initial-9",
+        "name": "Pomegranate Raspberry",
+        "price": 4500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 5
+      },
+      {
+        "id": "initial-9-7",
+        "productId": "initial-9",
+        "name": "Jasmine Peach",
+        "price": 4500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 6
+      },
+      {
+        "id": "initial-9-8",
+        "productId": "initial-9",
+        "name": "Coconut Waters",
+        "price": 4500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 7
+      },
+      {
+        "id": "initial-9-9",
+        "productId": "initial-9",
+        "name": "Beach Waves",
+        "price": 4500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 8
+      },
+      {
+        "id": "initial-9-10",
+        "productId": "initial-9",
+        "name": "Toasted Marshmallow",
+        "price": 4500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 9
+      }
+    ]
+  },
+  {
+    "id": "initial-10",
+    "name": "Body Shimmer",
+    "category": "Lotions & Body Wash",
+    "brand": "Vaseline",
+    "description": "",
+    "imageUrl": null,
+    "visible": true,
+    "sortOrder": 9,
+    "variants": [
+      {
+        "id": "initial-10-1",
+        "productId": "initial-10",
+        "name": "Golden Hour",
+        "price": 3500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 0
+      },
+      {
+        "id": "initial-10-2",
+        "productId": "initial-10",
+        "name": "Sunlit Glow",
+        "price": 3500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "initial-11",
+    "name": "Body Wash",
+    "category": "Lotions & Body Wash",
+    "brand": "Saltair",
+    "description": "",
+    "imageUrl": null,
+    "visible": true,
+    "sortOrder": 10,
+    "variants": [
+      {
+        "id": "initial-11-1",
+        "productId": "initial-11",
+        "name": "Pink Beach",
+        "price": 4000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "initial-12",
+    "name": "Lip Butter Balm",
+    "category": "Skincare",
+    "brand": "Summer Fridays",
+    "description": "",
+    "imageUrl": null,
+    "visible": true,
+    "sortOrder": 11,
+    "variants": [
+      {
+        "id": "initial-12-1",
+        "productId": "initial-12",
+        "name": "Vanilla",
+        "price": 7000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 0
+      },
+      {
+        "id": "initial-12-2",
+        "productId": "initial-12",
+        "name": "Vanilla Beige",
+        "price": 7000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 1
+      },
+      {
+        "id": "initial-12-3",
+        "productId": "initial-12",
+        "name": "Pink Sugar",
+        "price": 7000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 2
+      },
+      {
+        "id": "initial-12-4",
+        "productId": "initial-12",
+        "name": "Pink Guava",
+        "price": 7000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 3
+      },
+      {
+        "id": "initial-12-5",
+        "productId": "initial-12",
+        "name": "Brown Sugar",
+        "price": 7000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 4
+      },
+      {
+        "id": "initial-12-6",
+        "productId": "initial-12",
+        "name": "Iced Coffee",
+        "price": 7000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 5
+      },
+      {
+        "id": "initial-12-7",
+        "productId": "initial-12",
+        "name": "Cherry",
+        "price": 7000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 6
+      },
+      {
+        "id": "initial-12-8",
+        "productId": "initial-12",
+        "name": "Sweet Mint",
+        "price": 7000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 7
+      }
+    ]
+  },
+  {
+    "id": "initial-13",
+    "name": "Lip Butter Balm Sets",
+    "category": "Skincare",
+    "brand": "Summer Fridays",
+    "description": "",
+    "imageUrl": null,
+    "visible": true,
+    "sortOrder": 12,
+    "variants": [
+      {
+        "id": "initial-13-1",
+        "productId": "initial-13",
+        "name": "The Lip Butter Balm Minis",
+        "price": 6000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 0
+      },
+      {
+        "id": "initial-13-2",
+        "productId": "initial-13",
+        "name": "Sweet Pink Duo",
+        "price": 11500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "initial-14",
+    "name": "Starface",
+    "category": "Skincare",
+    "brand": "Starface",
+    "description": "",
+    "imageUrl": null,
+    "visible": true,
+    "sortOrder": 13,
+    "variants": [
+      {
+        "id": "initial-14-1",
+        "productId": "initial-14",
+        "name": "Blue",
+        "price": 3500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 0
+      },
+      {
+        "id": "initial-14-2",
+        "productId": "initial-14",
+        "name": "Black",
+        "price": 3500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 1
+      },
+      {
+        "id": "initial-14-3",
+        "productId": "initial-14",
+        "name": "Pink",
+        "price": 3500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 2
+      },
+      {
+        "id": "initial-14-4",
+        "productId": "initial-14",
+        "name": "Beige",
+        "price": 3500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 3
+      },
+      {
+        "id": "initial-14-5",
+        "productId": "initial-14",
+        "name": "Yellow",
+        "price": 3500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 4
+      },
+      {
+        "id": "initial-14-6",
+        "productId": "initial-14",
+        "name": "Bright Tones",
+        "price": 3500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 5
+      }
+    ]
+  },
+  {
+    "id": "initial-15",
+    "name": "Mighty Patch",
+    "category": "Skincare",
+    "brand": "Hero",
+    "description": "",
+    "imageUrl": null,
+    "visible": true,
+    "sortOrder": 14,
+    "variants": [
+      {
+        "id": "initial-15-1",
+        "productId": "initial-15",
+        "name": "Pack of 32",
+        "price": 3500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 0
+      },
+      {
+        "id": "initial-15-2",
+        "productId": "initial-15",
+        "name": "Pack of 72",
+        "price": 6500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "initial-16",
+    "name": "Setting Spray",
+    "category": "Makeup",
+    "brand": "One/Size",
+    "description": "",
+    "imageUrl": null,
+    "visible": true,
+    "sortOrder": 15,
+    "variants": [
+      {
+        "id": "initial-16-1",
+        "productId": "initial-16",
+        "name": "Full Size",
+        "price": 8500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 0
+      },
+      {
+        "id": "initial-16-2",
+        "productId": "initial-16",
+        "name": "Travel Size",
+        "price": 5000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "initial-17",
+    "name": "Eyeshadow Palettes",
+    "category": "Makeup",
+    "brand": "Juvia’s Place",
+    "description": "",
+    "imageUrl": null,
+    "visible": true,
+    "sortOrder": 16,
+    "variants": [
+      {
+        "id": "initial-17-1",
+        "productId": "initial-17",
+        "name": "The Wahala Palette",
+        "price": 9500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 0
+      },
+      {
+        "id": "initial-17-2",
+        "productId": "initial-17",
+        "name": "The Festival Palette",
+        "price": 4500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 1
+      },
+      {
+        "id": "initial-17-3",
+        "productId": "initial-17",
+        "name": "The Coffee Shop Palette",
+        "price": 7000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 2
+      },
+      {
+        "id": "initial-17-4",
+        "productId": "initial-17",
+        "name": "The Warrior Palette",
+        "price": 5000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 3
+      },
+      {
+        "id": "initial-17-5",
+        "productId": "initial-17",
+        "name": "The Warrior 2 Palette",
+        "price": 5000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 4
+      },
+      {
+        "id": "initial-17-6",
+        "productId": "initial-17",
+        "name": "The Saharan Palette",
+        "price": 6000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 5
+      },
+      {
+        "id": "initial-17-7",
+        "productId": "initial-17",
+        "name": "The Nubian Palette",
+        "price": 6000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 6
+      },
+      {
+        "id": "initial-17-8",
+        "productId": "initial-17",
+        "name": "The Nudes Palette",
+        "price": 4500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 7
+      },
+      {
+        "id": "initial-17-9",
+        "productId": "initial-17",
+        "name": "The Culture Palette",
+        "price": null,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 8
+      }
+    ]
+  },
+  {
+    "id": "initial-18",
+    "name": "Blush Duo Volume 5",
+    "category": "Makeup",
+    "brand": "Juvia’s Place",
+    "description": "",
+    "imageUrl": null,
+    "visible": true,
+    "sortOrder": 17,
+    "variants": [
+      {
+        "id": "initial-18-1",
+        "productId": "initial-18",
+        "name": "One Size",
+        "price": 4500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "initial-19",
+    "name": "Soft Pinch Cheek & Lip Trio",
+    "category": "Makeup",
+    "brand": "Rare Beauty",
+    "description": "",
+    "imageUrl": null,
+    "visible": true,
+    "sortOrder": 18,
+    "variants": [
+      {
+        "id": "initial-19-1",
+        "productId": "initial-19",
+        "name": "One Size",
+        "price": 8500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "initial-20",
+    "name": "Beauty Picks",
+    "category": "Makeup",
+    "brand": "Fenty Beauty",
+    "description": "",
+    "imageUrl": null,
+    "visible": true,
+    "sortOrder": 19,
+    "variants": [
+      {
+        "id": "initial-20-1",
+        "productId": "initial-20",
+        "name": "Chocolit Treatz Set",
+        "price": 7500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 0
+      },
+      {
+        "id": "initial-20-2",
+        "productId": "initial-20",
+        "name": "Gloss Bomb Ice Berry Jelly",
+        "price": 6500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "initial-21",
+    "name": "Primer",
+    "category": "Makeup",
+    "brand": "e.l.f.",
+    "description": "",
+    "imageUrl": null,
+    "visible": true,
+    "sortOrder": 20,
+    "variants": [
+      {
+        "id": "initial-21-1",
+        "productId": "initial-21",
+        "name": "Power Grip Primer",
+        "price": 3500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 0
+      },
+      {
+        "id": "initial-21-2",
+        "productId": "initial-21",
+        "name": "Power Grip Primer + 4% Niacinamide",
+        "price": 3500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "initial-22",
+    "name": "Easy Bake Duo Loose Powder",
+    "category": "Makeup",
+    "brand": "Huda Beauty",
+    "description": "",
+    "imageUrl": null,
+    "visible": true,
+    "sortOrder": 21,
+    "variants": [
+      {
+        "id": "initial-22-1",
+        "productId": "initial-22",
+        "name": "Pink Pumpkin",
+        "price": 12000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "initial-23",
+    "name": "Peelerz",
+    "category": "Candy",
+    "brand": "Peelerz",
+    "description": "",
+    "imageUrl": null,
+    "visible": true,
+    "sortOrder": 22,
+    "variants": [
+      {
+        "id": "initial-23-1",
+        "productId": "initial-23",
+        "name": "Mango",
+        "price": 1000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 0
+      },
+      {
+        "id": "initial-23-2",
+        "productId": "initial-23",
+        "name": "Peach",
+        "price": 1000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 1
+      },
+      {
+        "id": "initial-23-3",
+        "productId": "initial-23",
+        "name": "Grape",
+        "price": 1000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 2
+      },
+      {
+        "id": "initial-23-4",
+        "productId": "initial-23",
+        "name": "Lychee",
+        "price": 1000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 3
+      },
+      {
+        "id": "initial-23-5",
+        "productId": "initial-23",
+        "name": "Banana",
+        "price": 1000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 4
+      },
+      {
+        "id": "initial-23-6",
+        "productId": "initial-23",
+        "name": "Green Apple",
+        "price": 1000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 5
+      },
+      {
+        "id": "initial-23-7",
+        "productId": "initial-23",
+        "name": "Lemon",
+        "price": 1000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 6
+      },
+      {
+        "id": "initial-23-8",
+        "productId": "initial-23",
+        "name": "Orange",
+        "price": 1000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 7
+      },
+      {
+        "id": "initial-23-9",
+        "productId": "initial-23",
+        "name": "Pineapple",
+        "price": 1000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 8
+      },
+      {
+        "id": "initial-23-10",
+        "productId": "initial-23",
+        "name": "Passion Fruit",
+        "price": 1000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 9
+      },
+      {
+        "id": "initial-23-11",
+        "productId": "initial-23",
+        "name": "Kiwi",
+        "price": 1000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 10
+      }
+    ]
+  },
+  {
+    "id": "initial-24",
+    "name": "Sour Strips",
+    "category": "Candy",
+    "brand": "Sour Strips",
+    "description": "",
+    "imageUrl": null,
+    "visible": true,
+    "sortOrder": 23,
+    "variants": [
+      {
+        "id": "initial-24-1",
+        "productId": "initial-24",
+        "name": "Rainbow",
+        "price": 1100,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 0
+      },
+      {
+        "id": "initial-24-2",
+        "productId": "initial-24",
+        "name": "Strawberry",
+        "price": 1100,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 1
+      },
+      {
+        "id": "initial-24-3",
+        "productId": "initial-24",
+        "name": "Blue Raspberry",
+        "price": 1100,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 2
+      },
+      {
+        "id": "initial-24-4",
+        "productId": "initial-24",
+        "name": "Pink Lemonade",
+        "price": 1100,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 3
+      },
+      {
+        "id": "initial-24-5",
+        "productId": "initial-24",
+        "name": "Watermelon",
+        "price": 1100,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 4
+      },
+      {
+        "id": "initial-24-6",
+        "productId": "initial-24",
+        "name": "Cotton Candy",
+        "price": 1100,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 5
+      },
+      {
+        "id": "initial-24-7",
+        "productId": "initial-24",
+        "name": "Blueberry",
+        "price": 1100,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 6
+      },
+      {
+        "id": "initial-24-8",
+        "productId": "initial-24",
+        "name": "Green Apple",
+        "price": 1100,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 7
+      },
+      {
+        "id": "initial-24-9",
+        "productId": "initial-24",
+        "name": "Dreamberry",
+        "price": 1100,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 8
+      }
+    ]
+  },
+  {
+    "id": "initial-25",
+    "name": "Wallets",
+    "category": "Accessories & Gifts",
+    "brand": "Juicy Couture",
+    "description": "",
+    "imageUrl": null,
+    "visible": true,
+    "sortOrder": 24,
+    "variants": [
+      {
+        "id": "initial-25-1",
+        "productId": "initial-25",
+        "name": "Black Hearts",
+        "price": 3500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 0
+      },
+      {
+        "id": "initial-25-2",
+        "productId": "initial-25",
+        "name": "Black Monogram",
+        "price": 4000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 1
+      },
+      {
+        "id": "initial-25-3",
+        "productId": "initial-25",
+        "name": "Beige Heart",
+        "price": 4000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 2
+      },
+      {
+        "id": "initial-25-4",
+        "productId": "initial-25",
+        "name": "Brown Monogram",
+        "price": 4000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 3
+      }
+    ]
+  },
+  {
+    "id": "initial-26",
+    "name": "Hand Sanitizer",
+    "category": "Accessories & Gifts",
+    "brand": "Touchland",
+    "description": "",
+    "imageUrl": null,
+    "visible": true,
+    "sortOrder": 25,
+    "variants": [
+      {
+        "id": "initial-26-1",
+        "productId": "initial-26",
+        "name": "Berry Bliss",
+        "price": 3000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 0
+      },
+      {
+        "id": "initial-26-2",
+        "productId": "initial-26",
+        "name": "Beach Coco",
+        "price": 3000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 1
+      },
+      {
+        "id": "initial-26-3",
+        "productId": "initial-26",
+        "name": "Wild Watermelon",
+        "price": 3000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 2
+      },
+      {
+        "id": "initial-26-4",
+        "productId": "initial-26",
+        "name": "Pure Lavender",
+        "price": 3000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 3
+      },
+      {
+        "id": "initial-26-5",
+        "productId": "initial-26",
+        "name": "Blue Sandalwood",
+        "price": 3000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 4
+      },
+      {
+        "id": "initial-26-6",
+        "productId": "initial-26",
+        "name": "Vanilla Blossom",
+        "price": 3000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 5
+      },
+      {
+        "id": "initial-26-7",
+        "productId": "initial-26",
+        "name": "Rainwater",
+        "price": 3000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 6
+      },
+      {
+        "id": "initial-26-8",
+        "productId": "initial-26",
+        "name": "Velvet Peach",
+        "price": 3000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 7
+      },
+      {
+        "id": "initial-26-9",
+        "productId": "initial-26",
+        "name": "Mango Passion",
+        "price": 3000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 8
+      },
+      {
+        "id": "initial-26-10",
+        "productId": "initial-26",
+        "name": "Applelicious",
+        "price": 3000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 9
+      },
+      {
+        "id": "initial-26-11",
+        "productId": "initial-26",
+        "name": "Aloe You",
+        "price": 3000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 10
+      },
+      {
+        "id": "initial-26-12",
+        "productId": "initial-26",
+        "name": "Frosted Mint",
+        "price": 3000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 11
+      },
+      {
+        "id": "initial-26-13",
+        "productId": "initial-26",
+        "name": "Citrus Grove",
+        "price": 3000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 12
+      },
+      {
+        "id": "initial-26-14",
+        "productId": "initial-26",
+        "name": "Lemon Lime Spritz",
+        "price": 3000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 13
+      }
+    ]
+  },
+  {
+    "id": "initial-27",
+    "name": "Cup",
+    "category": "Accessories & Gifts",
+    "brand": "Stanley",
+    "description": "",
+    "imageUrl": null,
+    "visible": true,
+    "sortOrder": 26,
+    "variants": [
+      {
+        "id": "initial-27-1",
+        "productId": "initial-27",
+        "name": "Dew Drop · 14 oz",
+        "price": null,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 0
+      },
+      {
+        "id": "initial-27-2",
+        "productId": "initial-27",
+        "name": "Black 2.0 · 14 oz",
+        "price": null,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 1
+      },
+      {
+        "id": "initial-27-3",
+        "productId": "initial-27",
+        "name": "Lilac · 14 oz",
+        "price": null,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 2
+      },
+      {
+        "id": "initial-27-4",
+        "productId": "initial-27",
+        "name": "Seafoam · 14 oz",
+        "price": null,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 3
+      },
+      {
+        "id": "initial-27-5",
+        "productId": "initial-27",
+        "name": "Tumb Stone · 14 oz",
+        "price": null,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 4
+      },
+      {
+        "id": "initial-27-6",
+        "productId": "initial-27",
+        "name": "Seafoam · 20 oz",
+        "price": null,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 5
+      },
+      {
+        "id": "initial-27-7",
+        "productId": "initial-27",
+        "name": "Tumb Stone · 20 oz",
+        "price": null,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 6
+      },
+      {
+        "id": "initial-27-8",
+        "productId": "initial-27",
+        "name": "Flipstraw Polar · 20 oz",
+        "price": null,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 7
+      }
+    ]
+  },
+  {
+    "id": "initial-28",
+    "name": "Perfume Oil",
+    "category": "Perfumes & Body Mists",
+    "brand": "Whiskey & Leather",
+    "description": "",
+    "imageUrl": null,
+    "visible": true,
+    "sortOrder": 27,
+    "variants": [
+      {
+        "id": "initial-28-1",
+        "productId": "initial-28",
+        "name": "Marine Breeze",
+        "price": 8000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 0
+      },
+      {
+        "id": "initial-28-2",
+        "productId": "initial-28",
+        "name": "Driftwood & Leather",
+        "price": 8000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 1
+      },
+      {
+        "id": "initial-28-3",
+        "productId": "initial-28",
+        "name": "Bergamot & Neroli",
+        "price": 8000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 2
+      },
+      {
+        "id": "initial-28-4",
+        "productId": "initial-28",
+        "name": "Teakwood",
+        "price": null,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 3
+      },
+      {
+        "id": "initial-28-5",
+        "productId": "initial-28",
+        "name": "Cobalt",
+        "price": null,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 4
+      }
+    ]
+  },
+  {
+    "id": "initial-29",
+    "name": "Buttermelt Blush",
+    "category": "Makeup",
+    "brand": "NYX",
+    "description": "",
+    "imageUrl": null,
+    "visible": true,
+    "sortOrder": 28,
+    "variants": [
+      {
+        "id": "initial-29-1",
+        "productId": "initial-29",
+        "name": "Color 1",
+        "price": 3500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 0
+      },
+      {
+        "id": "initial-29-2",
+        "productId": "initial-29",
+        "name": "Color 2",
+        "price": 3500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 1
+      },
+      {
+        "id": "initial-29-3",
+        "productId": "initial-29",
+        "name": "Color 3",
+        "price": 3500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 2
+      },
+      {
+        "id": "initial-29-4",
+        "productId": "initial-29",
+        "name": "Color 4",
+        "price": 3500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 3
+      },
+      {
+        "id": "initial-29-5",
+        "productId": "initial-29",
+        "name": "Color 5",
+        "price": 3500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 4
+      }
+    ]
+  },
+  {
+    "id": "initial-30",
+    "name": "Lip Peptide Treatment",
+    "category": "Skincare",
+    "brand": "Rhode",
+    "description": "",
+    "imageUrl": null,
+    "visible": true,
+    "sortOrder": 29,
+    "variants": [
+      {
+        "id": "initial-30-1",
+        "productId": "initial-30",
+        "name": "Espresso · rich brown",
+        "price": 6500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 0
+      },
+      {
+        "id": "initial-30-2",
+        "productId": "initial-30",
+        "name": "Raspberry Jelly · crushed berry",
+        "price": 6500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 1
+      },
+      {
+        "id": "initial-30-3",
+        "productId": "initial-30",
+        "name": "Salty Tan · soft mauve",
+        "price": 6500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 2
+      },
+      {
+        "id": "initial-30-4",
+        "productId": "initial-30",
+        "name": "Toast · rose taupe",
+        "price": 6500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 3
+      },
+      {
+        "id": "initial-30-5",
+        "productId": "initial-30",
+        "name": "Jelly Bean · shimmery sheer pink",
+        "price": 6500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 4
+      },
+      {
+        "id": "initial-30-6",
+        "productId": "initial-30",
+        "name": "Ribbon · sheer pink",
+        "price": 6500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 5
+      }
+    ]
+  },
+  {
+    "id": "initial-31",
+    "name": "Blush Duo Volume 3",
+    "category": "Makeup",
+    "brand": "Juvia’s Place",
+    "description": "",
+    "imageUrl": null,
+    "visible": true,
+    "sortOrder": 30,
+    "variants": [
+      {
+        "id": "initial-31-1",
+        "productId": "initial-31",
+        "name": "One Size",
+        "price": null,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "initial-32",
+    "name": "Shoulder Bag",
+    "category": "Accessories & Gifts",
+    "brand": "Juicy Couture",
+    "description": "",
+    "imageUrl": null,
+    "visible": true,
+    "sortOrder": 31,
+    "variants": [
+      {
+        "id": "initial-32-1",
+        "productId": "initial-32",
+        "name": "Pink Strawberry",
+        "price": 10500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 0
+      },
+      {
+        "id": "initial-32-2",
+        "productId": "initial-32",
+        "name": "Brown Monogram",
+        "price": 10500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 1
+      },
+      {
+        "id": "initial-32-3",
+        "productId": "initial-32",
+        "name": "Black Rhinestone",
+        "price": 12500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 2
+      },
+      {
+        "id": "initial-32-4",
+        "productId": "initial-32",
+        "name": "Black Glossy",
+        "price": 12000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 3
+      },
+      {
+        "id": "initial-32-5",
+        "productId": "initial-32",
+        "name": "Light Pink Charms",
+        "price": 12000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 4
+      },
+      {
+        "id": "initial-32-6",
+        "productId": "initial-32",
+        "name": "Pink Heart",
+        "price": 8500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 5
+      },
+      {
+        "id": "initial-32-7",
+        "productId": "initial-32",
+        "name": "Red Charms",
+        "price": 12000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 6
+      },
+      {
+        "id": "initial-32-8",
+        "productId": "initial-32",
+        "name": "Dark Brown",
+        "price": 7500,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 7
+      }
+    ]
+  },
+  {
+    "id": "initial-33",
+    "name": "Shoulder Bag",
+    "category": "Accessories & Gifts",
+    "brand": "Von Dutch",
+    "description": "",
+    "imageUrl": null,
+    "visible": true,
+    "sortOrder": 32,
+    "variants": [
+      {
+        "id": "initial-33-1",
+        "productId": "initial-33",
+        "name": "Pink Hearts",
+        "price": 15000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "initial-34",
+    "name": "24-Cup Silicone Phone Suction Pad",
+    "category": "Other",
+    "brand": "Phone Accessories",
+    "description": "",
+    "imageUrl": null,
+    "visible": true,
+    "sortOrder": 33,
+    "variants": [
+      {
+        "id": "initial-34-1",
+        "productId": "initial-34",
+        "name": "Blue",
+        "price": 1000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 0
+      },
+      {
+        "id": "initial-34-2",
+        "productId": "initial-34",
+        "name": "Light Pink",
+        "price": 1000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 1
+      },
+      {
+        "id": "initial-34-3",
+        "productId": "initial-34",
+        "name": "Lilac",
+        "price": 1000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 2
+      },
+      {
+        "id": "initial-34-4",
+        "productId": "initial-34",
+        "name": "White",
+        "price": 1000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 3
+      },
+      {
+        "id": "initial-34-5",
+        "productId": "initial-34",
+        "name": "Hot Pink",
+        "price": 1000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 4
+      },
+      {
+        "id": "initial-34-6",
+        "productId": "initial-34",
+        "name": "Black",
+        "price": 1000,
+        "quantity": null,
+        "enabled": true,
+        "sortOrder": 5
+      }
+    ]
+  }
+]

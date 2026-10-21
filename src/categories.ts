@@ -1,0 +1,1 @@
+export const categories=["Perfumes & Body Mists","Lotions & Body Wash","Skincare","Makeup","Candy","Accessories & Gifts","Other"];
