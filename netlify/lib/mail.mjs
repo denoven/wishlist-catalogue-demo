@@ -13,7 +13,7 @@ export async function processRestock(s,seed,env=process.env,fetcher=fetch){
  for(const b of blobs){if(processed>=3)break;const saved=await s.getWithMetadata(b.key,{type:'json'}),item=saved?.data;
  if(!item||!['waiting','sending'].includes(item.status)||!emailAddress(item.contact)||item.emailSentAt||item.emailLeaseUntil>now)continue;
  const p=await s.get('products/'+item.productId,{type:'json'})||seed.find(p=>p.id===item.productId),v=p?.variants.find(v=>v.id===item.variantId);
- if(!p?.visible||!v?.enabled||!(v.quantity>0))continue;
+ if(!p?.visible||p.archived||!v?.enabled||v.archived||!(v.quantity>0))continue;
  // Stop uncertain retries before the provider's 24-hour idempotency window ends.
  if(item.emailFirstAttemptAt&&now-item.emailFirstAttemptAt>23*3600000){await s.setJSON(b.key,{...item,status:'waiting',emailNeedsReview:true,emailLastError:'Delivery needs manual review before retrying.'},{onlyIfMatch:saved.etag});continue}
  processed++;const claim=randomUUID(),next={...item,status:'sending',emailClaim:claim,emailLeaseUntil:now+5*60000,emailFirstAttemptAt:item.emailFirstAttemptAt||now};
@@ -24,3 +24,4 @@ export async function processRestock(s,seed,env=process.env,fetcher=fetch){
  }
  return {configured:true,sent};
 }
+
