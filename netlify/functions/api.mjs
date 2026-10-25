@@ -1,4 +1,4 @@
-import {preservePhotos,validateProductBundle,planConfirmation,deductOnce,digestCatalog,validateBackup,acquireAdminLock} from '../lib/admin-ops.mjs';
+import {preservePhotos,validateProductBundle,planConfirmation,deductOnce,planStockReturn,restoreStockOnce,digestCatalog,validateBackup,acquireAdminLock} from '../lib/admin-ops.mjs';
 import {processOrderEmails} from '../lib/order-mail.mjs';
 import {mailReady,sendMail} from '../lib/mail.mjs';
 import {requestUser} from '../lib/auth.mjs';
@@ -29,7 +29,7 @@ export default async(req)=>{let release;try{const route=new URL(req.url).pathnam
  }
  if(route==='admin/backup-preview'&&req.method==='POST'){
   const raw=await req.text();if(Buffer.byteLength(raw)>5500000)throw new HttpError(413,'Backup is too large.');const backup=validateBackup(JSON.parse(raw)),current=await catalog(),cats=await categoryList(),id=randomUUID();
-  if((await orders()).some(o=>o.stockPending))throw new HttpError(409,'Finish pending order stock confirmations before restoring a backup.');
+  if((await orders()).some(o=>o.stockPending||o.stockReturnPending))throw new HttpError(409,'Finish pending order stock confirmations before restoring a backup.');
   const incoming=new Map(backup.images.map(i=>[i.key,i]));for(const key of new Set(backup.products.flatMap(p=>[p.imageUrl,...p.variants.map(v=>v.imageUrl)]).filter(u=>u?.startsWith('/api/images/')).map(u=>u.slice(12)))){const bytes=await store('images').get(key,{type:'arrayBuffer'});if(!bytes&&!incoming.has(key))throw new HttpError(400,'The backup is missing an uploaded photo.');if(bytes&&incoming.has(key)&&!Buffer.from(bytes).equals(Buffer.from(incoming.get(key).data,'base64')))throw new HttpError(409,'A backup photo ID conflicts with an existing file.');}
   await store().setJSON('restore-plans/'+id,{backup,digest:digestCatalog(current,cats),expires:Date.now()+15*60000,administrator:administrator.email});
   return json({token:id,products:backup.products.length,categories:backup.categories.length,photos:backup.images.length,archiveExtra:current.filter(p=>!backup.products.some(b=>b.id===p.id)).length});
@@ -64,7 +64,23 @@ export default async(req)=>{let release;try{const route=new URL(req.url).pathnam
   if(x.mode==='rename')await store().setJSON('categories/'+Buffer.from(from.toLowerCase()).toString('base64url'),{name:from,deleted:true});return json({ok:true,moved:affected.length,categories:await categoryList()});
  }
  if(req.method==='PATCH'&&x.kind==='order'){
-  if(!['new','contacted','confirmed','cancelled'].includes(x.status))throw new HttpError(400,'Invalid order status.');const s=store(),key='orders/'+text(x.id);let saved=await s.getWithMetadata(key,{type:'json'});if(!saved)throw new HttpError(404,'Order not found.');
+  if(!['new','contacted','confirmed','delivered','cancelled'].includes(x.status))throw new HttpError(400,'Invalid order status.');const s=store(),key='orders/'+text(x.id);let saved=await s.getWithMetadata(key,{type:'json'});if(!saved)throw new HttpError(404,'Order not found.');
+  const current=saved.data;
+  if(current.stockReturnPending&&x.status!=='cancelled')throw new HttpError(409,'Finish the pending stock return before changing this order.');
+  if(current.status==='cancelled'&&x.status!=='cancelled')throw new HttpError(409,'Cancelled orders cannot be reopened. Create a new order request.');
+  if(current.deliveredAt&&!['delivered','cancelled'].includes(x.status))throw new HttpError(409,'Delivered orders cannot be reopened.');
+  if(x.returnReceived&&(!current.deliveredAt||current.status!=='cancelled'||x.status!=='cancelled'))throw new HttpError(400,'Confirm physical receipt only for a cancelled delivered order.');
+  if(x.status==='cancelled'&&current.stockPending)throw new HttpError(409,'Finish stock confirmation before cancelling this order.');
+  if(x.status==='cancelled'&&current.stockAppliedAt&&(!current.deliveredAt||x.returnReceived||current.stockReturnPending)&&!current.stockReturnedAt){
+   if(current.deliveredAt&&!current.returnReceivedAt&&!x.returnReceived)throw new HttpError(409,'Confirm that the returned products have physically arrived.');
+   const claim={...current,status:'cancelled',stockReturnPending:true,...(x.returnReceived?{returnReceivedAt:current.returnReceivedAt||new Date().toISOString()}:{}),stockReturnLastError:null};
+   if(!(await s.setJSON(key,claim,{onlyIfMatch:saved.etag})).modified)throw new HttpError(409,'Order changed. Refresh and retry.');
+   try{const groups=planStockReturn(claim,await catalog());for(const g of groups)if(!g.receipt.returnedAt)await modify(g.product.id,g.product.revision,p=>restoreStockOnce(p,x.id));
+    saved=await s.getWithMetadata(key,{type:'json'});if(!(await s.setJSON(key,{...saved.data,stockReturnPending:false,stockReturnedAt:new Date().toISOString(),stockReturnLastError:null},{onlyIfMatch:saved.etag})).modified)throw Error('Refresh and retry to finish recording the return.');
+    return json({ok:true,message:'Order cancelled. Deducted quantities have been returned to stock.'});
+   }catch(e){saved=await s.getWithMetadata(key,{type:'json'});await s.setJSON(key,{...saved.data,stockReturnPending:true,stockReturnLastError:'Stock could not be updated. Please check inventory. '+e.message},{onlyIfMatch:saved.etag});throw new HttpError(409,'Stock could not be updated. Please check inventory. Retry the stock return to finish safely.');}
+  }
+  if(x.status==='delivered'&&(!current.stockAppliedAt||current.stockPending||!['confirmed','delivered'].includes(current.status)))throw new HttpError(409,'Confirm the order before marking it delivered.');
   if(x.status==='confirmed'&&!saved.data.stockAppliedAt){
    const groups=planConfirmation(saved.data,await catalog());
    const claim={...saved.data,stockPending:true};if(!(await s.setJSON(key,claim,{onlyIfMatch:saved.etag})).modified)throw new HttpError(409,'Order changed. Reload and try again.');
@@ -72,7 +88,7 @@ export default async(req)=>{let release;try{const route=new URL(req.url).pathnam
    saved=await s.getWithMetadata(key,{type:'json'});const updated={...saved.data,status:'confirmed',stockPending:false,stockAppliedAt:new Date().toISOString(),stockUntracked:groups.flatMap(g=>g.product.variants.filter(v=>g.quantities.has(v.id)&&v.quantity===null).map(v=>g.product.name+' — '+v.name))};if(!(await s.setJSON(key,updated,{onlyIfMatch:saved.etag})).modified)throw new HttpError(409,'Stock recorded. Refresh and confirm again to finish.');return json({ok:true});
   }
   if(saved.data.stockPending)throw new HttpError(409,'Finish stock confirmation before changing this order status.');
-  const next={...saved.data,status:x.status};if(!(await s.setJSON(key,next,{onlyIfMatch:saved.etag})).modified)throw new HttpError(409,'Order changed. Refresh and try again.');return json({ok:true});
+  const next={...saved.data,status:x.status,...(x.status==='delivered'?{deliveredAt:saved.data.deliveredAt||new Date().toISOString()}: {})};if(!(await s.setJSON(key,next,{onlyIfMatch:saved.etag})).modified)throw new HttpError(409,'Order changed. Refresh and try again.');return json({ok:true});
  }
 
 
