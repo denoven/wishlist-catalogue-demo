@@ -1,0 +1,85 @@
+/* Final, scoped layout rules shared by sign-in, administration and catalogue. */
+.admin-session,.admin-layout,.admin-main,.admin-title,.admin-title>div,.editor-grid>* ,.option-fields,.create-columns>*,.order-head>div{min-width:0}
+.admin-layout{grid-template-columns:240px minmax(0,1fr)}
+.admin-session-bar{display:flex;justify-content:flex-end;padding:10px 24px;background:#fff7fa;border-bottom:1px solid var(--border)}
+.admin-session-bar .logout-button{position:static;margin:0;min-height:44px;z-index:auto}
+.admin-nav{display:flex;flex-direction:column;gap:7px;min-width:0}
+.admin-sidebar .admin-nav button{align-items:center;gap:10px;min-height:44px}
+.admin-main{padding-bottom:110px}
+.admin-title{align-items:flex-start;flex-wrap:wrap}
+.admin-title>div:first-child{flex:1 1 300px}
+.admin-title h1{font-size:clamp(27px,3.2vw,40px);line-height:1.15;overflow-wrap:anywhere}
+.admin-title p{line-height:1.5;margin:10px 0 14px}
+.admin-toolbar{max-width:none;justify-content:flex-start}
+.admin-title-actions{flex:0 1 auto;align-items:stretch}
+.admin-toolbar button{width:auto;min-height:44px;font-size:14px;white-space:normal}
+.admin-filters{display:grid;grid-template-columns:minmax(0,480px) auto;align-items:center;gap:12px 20px;margin-bottom:18px;width:100%}
+.admin-filters .admin-search{width:100%;max-width:none;min-width:0;margin:0;height:48px;padding:0 12px}
+.admin-search input{width:100%;min-width:0;max-width:100%;font-size:16px;text-align:left;min-height:44px;padding:0;background:transparent}
+.admin-filters .checkbox{margin:0;min-height:44px;justify-self:start}
+.admin-row-name strong,.admin-row-name small,.order-card,.admin-message,.editor-card p,.editor-card small,.category-modal p{overflow-wrap:anywhere}
+.admin-primary,.admin-outline,.back-button,.text-button{min-height:44px;line-height:1.35}
+.admin-primary:focus-visible,.admin-outline:focus-visible,.admin-nav button:focus-visible,.admin-row:focus-visible,.text-button:focus-visible{outline:3px solid #a04473;outline-offset:3px}
+.editor-card input:not([type=checkbox]),.editor-card textarea,.editor-card select,.admin-create-modal input,.admin-create-modal select,.admin-create-modal textarea{min-width:0;max-width:100%;font-size:16px}
+.editor-card .upload-label,.admin-create-modal .upload-label{display:block;text-align:left;overflow-wrap:anywhere}
+.upload-label input[type=file]{display:block;width:100%;max-width:100%;min-width:0;margin:10px 0 0;padding:8px;font-size:13px}
+.upload-label input[type=file]::file-selector-button{padding:8px;margin-right:8px;border:1px solid #dcb9c3;border-radius:6px;background:#fff;color:#713452;cursor:pointer}
+.option-photo{min-width:0}.option-photo img{max-width:100%}
+.admin-main .editor-card{overflow:visible;min-width:0}
+.order-head{flex-wrap:wrap;align-items:flex-start}.order-head>div{flex:1 1 170px}.order-head select{min-height:44px;max-width:100%;font-size:16px}
+.order-card li{flex-wrap:wrap}.order-card li span{margin-left:auto}
+.admin-modal-backdrop{overflow-y:auto;padding:20px;align-items:center}
+.admin-create-modal{max-height:calc(100dvh - 40px);min-width:0;overscroll-behavior:contain}
+.create-actions{flex-wrap:wrap}.create-actions button{min-height:44px}
+.admin-gate{box-sizing:border-box;width:min(100%,460px);max-width:460px;margin:clamp(24px,7vh,80px) auto;padding:24px;text-align:center}
+.admin-gate>img{display:block;width:200px;max-width:80%;height:auto;margin:0 auto}
+.admin-gate h1{font-size:clamp(26px,6vw,34px);line-height:1.15;overflow-wrap:anywhere;margin:24px 0 12px}
+.admin-gate form{display:grid;width:100%;max-width:100%;min-width:0;margin:24px 0 16px;gap:18px;text-align:left}
+.admin-gate form .auth-field{display:grid;grid-template-columns:minmax(0,1fr);width:100%;min-width:0;margin:0;gap:8px;line-height:1.4;font-size:15px;text-align:left}
+.auth-field>span{display:block}.admin-gate form .auth-field input{display:block;width:100%;min-width:0;max-width:100%;margin:0;min-height:48px;padding:12px;font-size:16px;line-height:1.4}
+.admin-gate form>button{width:100%;min-height:48px}.admin-gate .text-button{margin:0 0 14px;padding:10px}.admin-gate>a{display:inline-block;padding:12px}
+.site-shell .search{min-width:0;max-width:100%}.site-shell .search input{min-width:0;font-size:16px}
+.topbar-inner,.top-right,.section-heading>*,.browse-tools>*,.product-info,.cart-item>div{min-width:0}
+.site-shell .browse-tools{flex-wrap:wrap;gap:12px}.site-shell .sort-by select{min-width:0;min-height:44px;font-size:16px}
+.product-info h3,.single-option,.product-placeholder strong,.cart-item strong,.success p{overflow-wrap:anywhere}
+.site-shell .select-box select{min-width:0;max-width:100%}.site-shell .add-button{white-space:normal;gap:8px;line-height:1.35;min-height:46px}
+.site-shell .add-button svg{flex:none}.site-shell .product-card:hover{transform:none}
+.site-shell .drawer-layer{z-index:110}.site-shell .drawer{max-height:100dvh;min-width:0}
+.drawer-head{flex:none}.drawer-items,.checkout,.success{min-height:0;overscroll-behavior:contain}
+.checkout input,.checkout textarea,.success textarea{font-size:16px}.checkout{padding-bottom:max(28px,env(safe-area-inset-bottom))}.cart-item>div{overflow-wrap:anywhere}
+.site-shell .qty button,.site-shell .icon-button{min-width:44px;min-height:44px}.site-shell .qty{gap:10px}
+@media(max-width:950px){
+ .admin-layout{display:block}.admin-main{width:100%;padding:24px 20px 110px}
+ .admin-sidebar{display:flex;flex-wrap:nowrap;align-items:center;gap:12px;padding:12px 16px}
+ .admin-sidebar .admin-brand{flex:none;align-self:center}.admin-brand img{width:90px;height:44px;margin:0}
+ .admin-nav{flex-direction:row;flex:1;overflow-x:auto;gap:6px;padding:3px;scrollbar-width:thin;overscroll-behavior-x:contain}
+ .admin-sidebar .admin-nav button{flex:none;white-space:nowrap;font-size:13px;padding:10px 12px}
+ .admin-label,.admin-back{display:none}.editor-grid{grid-template-columns:minmax(0,1fr)}
+}
+@media(max-width:650px){
+ .admin-session-bar{padding:8px 16px}.admin-main{padding:22px 16px 105px}
+ .admin-title{display:block;margin-bottom:22px}.admin-title-actions{display:flex;width:100%;max-width:none;margin-top:18px}
+ .admin-title-actions button{flex:1 1 145px;width:auto;font-size:14px}
+ .admin-filters{grid-template-columns:minmax(0,1fr);gap:10px}.admin-filters .admin-search{max-width:100%}
+ .admin-filters .checkbox{margin:0}.admin-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+ .admin-row{padding:9px;gap:10px}.admin-row-name strong{font-size:14px;line-height:1.4}.admin-row-name small{font-size:12px;line-height:1.45}
+ .save-bar{position:static;align-items:stretch;padding:12px}.save-bar .admin-toolbar{width:100%;max-width:none}.save-bar button{flex:1 1 135px;width:auto}
+ .editor-card,.order-card{padding:18px}.editor-card h2{font-size:24px;line-height:1.2}
+ .option-editor{grid-template-columns:minmax(0,1fr)}.option-fields{grid-template-columns:minmax(0,1fr)}
+ .option-photo{display:grid;grid-template-columns:90px minmax(0,1fr);align-items:center;gap:12px}.option-photo img{width:90px;height:90px}.option-photo .upload-label{margin:0;padding:8px}
+ .variants-heading button{width:100%}.admin-modal-backdrop{padding:12px}.admin-create-modal{padding:18px;max-height:calc(100dvh - 24px);border-radius:16px}
+ .create-columns{grid-template-columns:minmax(0,1fr)}.create-price-stock{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .create-actions{justify-content:stretch}.create-actions button{flex:1 1 120px}
+ .site-shell .browse-tools{align-items:flex-start}.site-shell .sort-by{flex-wrap:wrap;gap:8px;font-size:14px}
+ .site-shell .topbar-inner{gap:10px;padding:0 16px}.site-shell .top-right{gap:10px}.site-shell .cart-button{padding:10px 12px;min-height:44px}
+ .site-shell .intro h1{font-size:clamp(38px,10vw,50px)}.site-shell .categories{max-width:calc(100% + 18px)}
+ .site-shell .select-box{height:46px}.site-shell .select-box select{font-size:16px}
+}
+@media(max-width:380px){
+ .site-shell .topbar-inner>a{width:120px}.site-shell .topbar .logo{width:120px;height:120px;transform:translateY(-10px)}
+ .site-shell .top-right{gap:8px}.site-shell .cart-button{gap:6px;padding:10px;font-size:14px}
+ .admin-sidebar{padding:10px;gap:8px}.admin-brand img{width:70px}.admin-main{padding-left:14px;padding-right:14px}
+ .admin-list{grid-template-columns:minmax(0,1fr)}.option-photo{grid-template-columns:minmax(0,1fr)}
+ .create-price-stock{grid-template-columns:minmax(0,1fr)}.site-shell .sort-by{width:100%;justify-content:space-between}.site-shell .sort-by select{max-width:190px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.product-card{transition:none}}

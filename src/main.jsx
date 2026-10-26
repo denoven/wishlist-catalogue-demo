@@ -5,6 +5,7 @@ import Catalog from './Catalog';
 import AdminPanel from './AdminPanel';
 import './admin-base.css';
 import './migration.css';
+import './responsive.css';
 
 function App(){
  const [data,setData]=useState(null),[categories,setCategories]=useState([]),[ordersEnabled,setOrdersEnabled]=useState(false);
@@ -40,15 +41,15 @@ function App(){
  }
  if(admin||token){
   if(!ready)return <main className="admin-gate">Loading sign-in…</main>;
-  if(session&&!token)return <><button className="logout-button" onClick={async()=>{await logout();setSession(null);}}>Sign out</button><AdminPanel/></>;
+  if(session&&!token)return <div className="admin-session"><div className="admin-session-bar"><button className="logout-button" onClick={async()=>{await logout();setSession(null);}}>Sign out</button></div><AdminPanel/></div>;
   return <main className="admin-gate">
    <img src="/brand-wordmark-transparent.png" alt="Wishlist"/>
    <h1>{token?'Set your password':forgot?'Reset your password':'Catalogue management'}</h1>
    <p>{token?'Choose a password with at least 12 characters.':forgot?'Enter your admin email address and we will send you a password reset link.':'Sign in to manage photos, prices and inventory.'}</p>
    <form onSubmit={submit}>
-    {!token&&<label>Email address<input type="email" required autoComplete="username" value={email} onChange={e=>setEmail(e.target.value)}/></label>}
-    {(!forgot||token)&&<label>{token?'New password':'Password'}<input type="password" required minLength={token?12:1} autoComplete={token?'new-password':'current-password'} value={password} onChange={e=>setPassword(e.target.value)}/></label>}
-    {token&&<label>Confirm new password<input type="password" required minLength={12} autoComplete="new-password" value={confirmPassword} onChange={e=>setConfirmPassword(e.target.value)}/></label>}
+    {!token&&<label className="auth-field"><span>Email address</span><input type="email" required autoComplete="username" value={email} onChange={e=>setEmail(e.target.value)}/></label>}
+    {(!forgot||token)&&<label className="auth-field"><span>{token?'New password':'Password'}</span><input type="password" required minLength={token?12:1} autoComplete={token?'new-password':'current-password'} value={password} onChange={e=>setPassword(e.target.value)}/></label>}
+    {token&&<label className="auth-field"><span>Confirm new password</span><input type="password" required minLength={12} autoComplete="new-password" value={confirmPassword} onChange={e=>setConfirmPassword(e.target.value)}/></label>}
     <button className="admin-primary" disabled={busy}>{busy?'Please wait…':token?'Save password & sign in':forgot?'Send reset link':'Sign in'}</button>
    </form>
    {error&&<p role="alert">{error}</p>}
@@ -61,3 +62,4 @@ function App(){
  return data?<Catalog initial={data} categories={categories} ordersEnabled={ordersEnabled}/>:<main className="admin-gate"><img src="/brand-wordmark-transparent.png" alt="Wishlist"/><p role={error?'alert':'status'}>{error||'Loading the catalogue…'}</p>{error&&<a href="https://www.instagram.com/wishlist.cw/">Contact @wishlist.cw</a>}</main>;
 }
 createRoot(document.getElementById('root')).render(<App/>);
+
